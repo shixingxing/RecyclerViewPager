@@ -140,7 +140,6 @@ public class CheeseListFragment extends Fragment {
 
             Glide.with(holder.mImageView.getContext())
                     .load(Cheeses.getRandomCheeseDrawable())
-                    .fitCenter()
                     .into(holder.mImageView);
         }
 
